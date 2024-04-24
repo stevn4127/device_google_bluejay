@@ -4,6 +4,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Gapps
+TARGET_STOCK_GAPPS:= true
+
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Bliss Properties
+BLISS_BUILDTYPE := OFFICIAL
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
